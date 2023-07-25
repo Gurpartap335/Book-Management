@@ -6,6 +6,7 @@ import (
 
 	"github.com/Gurpartap335/Book-Management/pkg/routes"
 	"github.com/gorilla/mux"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
 //create server
